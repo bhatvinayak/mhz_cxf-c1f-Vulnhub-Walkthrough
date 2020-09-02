@@ -46,5 +46,37 @@ From this we came to know that there are two files remb.txt and remb2.txt
 
 ![Screenshot](5.png)
 
+It looks like we should try ssh'ing in next step from the text file data.(port 22 was open right XD )
+
+**Step 5: SSH into the machine**
+
+> ssh first_stage@<IP_address_of_your_machine>
+
+when it prompts to enter password, enter this
 
 
+
+>flagitifyoucan1234
+
+![Screenshot](5a.png)
+
+And yes! we are successful to ssh into the machine, let's explore the machine! I wonder what and all it can have!!
+
+**Step 6: Explore the machine**
+
+![Screenshot](6.png)
+
+And that's it! We are halfway done.. now try to be root and complete the machine!!
+
+**Step 7: Explore a little bit more**
+
+![Screenshot](7.png)
+
+It looks like suspicious about the Paintings! isn't it?
+Let's download and take a closer look at the paintings.
+
+**Step 8 : Download the Paintings**
+
+![Screenshot](7a.png)
+
+I'm here making a new folder which contains all the Paintings.
