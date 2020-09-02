@@ -66,15 +66,4 @@ And yes! we are successful to ssh into the machine, let's explore the machine! I
 
 And that's it! We are halfway done.. now try to be root and complete the machine!!
 
-**Step 7: Explore a little bit more**
 
-![Screenshot](7.png)
-
-It looks like suspicious about the Paintings! isn't it?
-Let's download and take a closer look at the paintings.
-
-**Step 8 : Download the Paintings**
-
-![Screenshot](7a.png)
-
-I'm here making a new folder which contains all the Paintings.
