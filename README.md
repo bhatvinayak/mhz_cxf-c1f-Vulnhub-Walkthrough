@@ -73,8 +73,39 @@ And that's it! We are halfway done.. now try to be root and complete the machine
 It looks like suspicious about the Paintings! isn't it?
 Let's download and take a closer look at the paintings.
 
-**Step 8 : Download the Paintings**
+**Step 8: Download the Paintings**
 
 ![Screenshot](7a.png)
 
 I'm here making a new folder which contains all the Paintings.
+
+**Step 9: Extract information from images**
+
+>steghide extract -sf 'spinning the wool.jpeg'
+
+Press enter when it asks for passphrase
+
+![Screenshot](7b.png)
+
+So there is a new file now remb2.txt (Heard of this filename before?)
+
+**Step 10: Take a look at remb2.txt file** 
+
+> cat remb2.txt
+
+![Screenshot](8.png)
+
+So we got something more important now, isn't it?
+
+**Step 11: Final step of becoming root**
+>id
+
+>sudo su
+
+>ls -la
+
+>cat .root.txt
+
+![Screenshot](10.png)
+
+
