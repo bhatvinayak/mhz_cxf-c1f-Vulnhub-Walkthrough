@@ -16,3 +16,5 @@ So let's begin hacking!!
 > Step 1: Scan the machine
 > nmap -A -p- <ip_address_of_machine>
 
+![Screenshot](1.png)
+
