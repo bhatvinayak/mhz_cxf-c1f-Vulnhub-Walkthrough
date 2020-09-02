@@ -46,5 +46,15 @@ From this we came to know that there are two files remb.txt and remb2.txt
 
 ![Screenshot](5.png)
 
+It looks like we should try ssh'ing in next step from the text file data.
 
+**Step 5: SSH into the machine**
+
+> ssh first_stage@<IP_address_of_your_machine>
+
+when it prompts to enter password, enter this
+
+>flagitifyoucan1234
+
+![Screenshot](5a.png)
 
