@@ -15,4 +15,4 @@ This works better with VirtualBox rather than VMware.
 So let's begin hacking!!
 > Step 1: Scan the machine
 > nmap -A -p- <ip_address_of_machine>
-https://drive.google.com/file/d/1NMG0v2B10CvgwGOe8LfLyI2rj4vBDS4r/view?usp=sharing
+![nmap](https://drive.google.com/file/d/1NMG0v2B10CvgwGOe8LfLyI2rj4vBDS4r/view?usp=sharing)
