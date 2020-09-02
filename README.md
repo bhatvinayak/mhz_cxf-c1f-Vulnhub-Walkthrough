@@ -44,7 +44,7 @@ From this we came to know that there are two files remb.txt and remb2.txt
 
 > http://<IP_address_of_your_machine>/remb.txt
 
-![Screenshot](!5.png)
+![Screenshot](5.png)
 
 
 
