@@ -13,7 +13,9 @@ This works better with VirtualBox rather than VMware.
 ***Series: mhz_cxf***
 
 So let's begin hacking!!
+
 **Step 1: Scan the machine**
+
 > nmap -A -p- <IP_address_of_your_machine>
 
 ![Screenshot](1.png)
@@ -21,6 +23,10 @@ So let's begin hacking!!
 From the scan we can see that, port 22 and 80 are open. Let's explore port 80.
 
 **Step 2: Go to machine's IP in web browser**
+
+In your web browser
+
+>http://<IP_address_of_your_machine>  
 
 ![Screenshot](2.png)
 
@@ -62,11 +68,27 @@ And yes! we are successful to ssh into the machine, let's explore the machine! I
 
 **Step 6: Explore the machine**
 
+>ls
+
+>cat user.txt
+
 ![Screenshot](6.png)
 
 And that's it! We are halfway done.. now try to be root and complete the machine!!
 
 **Step 7: Explore a little bit more**
+
+>cd ..
+
+>ls
+
+>cd mhz_c1f
+
+>ls
+
+>cd Paintings
+
+>ls
 
 ![Screenshot](7.png)
 
@@ -74,6 +96,8 @@ It looks like suspicious about the Paintings! isn't it?
 Let's download and take a closer look at the paintings.
 
 **Step 8: Download the Paintings**
+
+> scp first_stage@<IP_address_of_your_machine>:/home/mhz_c1/fPaintings/* .
 
 ![Screenshot](7a.png)
 
@@ -87,7 +111,7 @@ Press enter when it asks for passphrase
 
 ![Screenshot](7b.png)
 
-So there is a new file now remb2.txt (Heard of this filename before?)
+So there is a new file now remb2.txt (Heard of this file name before?)
 
 **Step 10: Take a look at remb2.txt file** 
 
@@ -107,5 +131,9 @@ So we got something more important now, isn't it?
 >cat .root.txt
 
 ![Screenshot](10.png)
+
+And That's it! We completely hacked the machine and became root!!
+
+**Thank you!**
 
 
