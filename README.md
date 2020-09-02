@@ -54,8 +54,6 @@ It looks like we should try ssh'ing in next step from the text file data.(port 2
 
 when it prompts to enter password, enter this
 
-
-
 >flagitifyoucan1234
 
 ![Screenshot](5a.png)
